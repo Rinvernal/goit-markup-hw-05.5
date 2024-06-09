@@ -3,7 +3,6 @@ body{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  /* letter-spacing: 0.02%; */
   color: #434455;
   background-color: #ffffff;
 }
@@ -446,5 +445,33 @@ img{
 .container-footer{
   display: flex;
   align-items: baseline;
-
+}
+.backdrop{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  top: 0;
+  
+} 
+.modal{
+  position: absolute;
+  width: 408px;
+  height: 584px;
+  background-color: #FCFCFC;
+  border-radius: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-close{
+  margin-top: 24px;
+  margin-left: 360px;
+  border-radius: 100%;
+  background-color: #E7E9FC;
+}
+.close-svg{
+  padding-top: 0px;
+  width: 8px;
+  height: 8px;
 }
